@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 5em;
-    border: 3px solid rgb(139, 130, 0);
+    
   }
 
 .pizza {
@@ -40,8 +40,16 @@ body {
     margin: 2%;
     padding: 1em;
     border-radius: 1em;
+    justify-items: center;
+    align-content: center;
 }
-
+.center_contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    border: 3px solid darkred;
+  }
 
 @media (min-width: 760px) {
     
